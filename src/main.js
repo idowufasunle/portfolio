@@ -12,13 +12,13 @@ galleryImages.forEach((image) => {
 
 closeBtn.addEventListener('click', () => { 
   lightbox.style.display = 'none';
-  lightboxImg.src = './Images/erlingHaaland.JPG'; 
+  lightboxImg.src = './Images/erlingHaaland.jpg'; 
 });
 
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
         lightbox.style.display = 'none';
         
-        lightboxImg.src = './Images/erlingHaaland.JPG';
+        lightboxImg.src = './Images/erlingHaaland.jpg';
     }
 });

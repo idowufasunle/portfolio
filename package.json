@@ -16,5 +16,12 @@
   },
   "dependencies": {
     "sharp": "^0.35.5"
+  },
+  "parcel": {
+    "extends": "@parcel/config-default",
+    "transformers": {
+      "*.{jpg,jpeg}": ["@parcel/transformer-raw"]
+    }
   }
 }
+
