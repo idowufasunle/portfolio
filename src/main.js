@@ -7,18 +7,18 @@ galleryImages.forEach((image) => {
   image.addEventListener('click', () => {
     lightbox.style.display = 'flex';
     lightboxImg.src = image.querySelector('img').src;
-
   });
 });
 
 closeBtn.addEventListener('click', () => { 
   lightbox.style.display = 'none';
-  lightboxImg.src = ''; 
+  lightboxImg.src = './Images/erlingHaaland.JPG'; 
 });
 
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
         lightbox.style.display = 'none';
-        lightboxImg.src = '';
+        
+        lightboxImg.src = './Images/erlingHaaland.JPG';
     }
 });
