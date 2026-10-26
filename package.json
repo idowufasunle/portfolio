@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "A simple portfolio website (image gallery)",
+  "license": "ISC",
+  "author": "Idowu Fasunle",
+  "type": "commonjs",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
